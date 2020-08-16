@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
 body {
   background-color: #34495e;
   color: #fff;
