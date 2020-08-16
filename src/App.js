@@ -7,8 +7,8 @@ import Notifications from './components/Notifications';
 import Popup from './components/Popup';
 import { showNotification as show } from './helpers/helpers';
 import './App.css';
-
-const words = ['application', 'programming', 'interface', 'wizard'];
+const data = require('./helpers/words.js');
+const { words } = data;
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
