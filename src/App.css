@@ -11,13 +11,13 @@
 }
 
 body {
-  background-color: #34495e;
+  background: #000 url('img/bg.jpg') no-repeat center center/cover;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
 }
@@ -46,6 +46,8 @@ h1 {
 }
 
 .wrong-letters-container {
+  background-color: rgba(47, 26, 240, 0.3);
+  padding: 10px;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -126,6 +128,7 @@ h1 {
   padding: 15px 20px;
   position: absolute;
   bottom: -50px;
+  opacity: 0;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -135,4 +138,5 @@ h1 {
 
 .notification-container.show {
   transform: translateY(-50px);
+  opacity: 1;
 }

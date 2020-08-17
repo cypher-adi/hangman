@@ -1,7 +1,13 @@
 {
   "short_name": "Hangman",
-  "name": "Hangman Game",
-  "icons": [],
+  "name": "Hangman Game based on MCU",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
